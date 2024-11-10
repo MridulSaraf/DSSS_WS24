@@ -13,4 +13,4 @@ A fun and interactive Math Quiz game where users answer randomly generated math 
 
 ### Prerequisites
 
-- **Python 3.x**: Make sure you have Python installed on your system.
+- **Python 3.6**: Make sure you have Python installed on your system.
