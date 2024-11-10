@@ -1,6 +1,4 @@
 import random
-
-
 def randomIntGenerator(min, max):
     """
     Generate a random integer between specified min and max values.
@@ -13,8 +11,6 @@ def randomIntGenerator(min, max):
     int: Random integer between min and max.
     """
     return random.randint(min, max)
-
-
 def randomOperatorGenerator():
 
     """
@@ -24,8 +20,6 @@ def randomOperatorGenerator():
     str: A random operator
     """
     return random.choice(['+', '-', '*'])
-
-
 def randomProblemGenerator(num1, num2, operator):
     """
     Create a math problem and calculate the correct answer based on the operator.
@@ -43,18 +37,16 @@ def randomProblemGenerator(num1, num2, operator):
     problem = f"{num1} {operator} {num2}"
     if operator == '+':
         answer = num1 + num2
-    elif operator == '-3':
+    elif operator == '-':
         answer = num1 - num2
     else:
         answer = num1 * num2
     return problem, answer
-
 def math_quiz():
     """
     A math quiz game that asks the user random math questions and provides their score as ouput.
 
     """
-
     points = 0
     total_questions = 3 
 
@@ -90,3 +82,4 @@ def math_quiz():
 
 if __name__ == "__main__":
     math_quiz()
+
